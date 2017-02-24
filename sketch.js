@@ -1,7 +1,7 @@
 //=============================
 const SYMBOL_SIZE = 23;
-const WIDTH = window.screen.availWidth;
-const HEIGHT = window.screen.availHeight;
+const WIDTH = window.screen.width;
+const HEIGHT = window.screen.height;
 
 //=============================
 var matrix;
