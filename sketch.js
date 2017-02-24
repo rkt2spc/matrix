@@ -80,7 +80,7 @@ class Stream {
         for (let i = 0; i < totalSymbols; ++i)
             this.symbols.push(new Symbol(this.x, this.y + i * Symbol.SIZE));
 
-        this.symbols[round(random(0, this.symbols.length))].highlight = round(random(0, 3)) == 1;
+        this.symbols[round(random(0, this.symbols.length - 1))].highlight = round(random(0, 3)) == 1;
     }
 
     fall() {
