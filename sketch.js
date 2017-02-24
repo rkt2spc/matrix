@@ -38,7 +38,7 @@ class Symbol {
     static get SIZE() { return SYMBOL_SIZE; }
 
     setToRandomSymbol() {
-        this.value = String.fromCharCode(0x30A0 + round(random(0, 96)));
+        this.value = String.fromCharCode(0x30A0 + round(random(0, 95)));
     }
 
     render() {
