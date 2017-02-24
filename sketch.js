@@ -11,6 +11,7 @@ function setup() {
     //--------------------------------------------------
     createCanvas(WIDTH, HEIGHT);
     textSize(Symbol.SIZE);
+    textStyle(BOLD);
     //--------------------------------------------------
     matrix = new Matrix();
 }
